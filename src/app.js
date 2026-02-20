@@ -18,11 +18,12 @@ window.onload = function() {
         for (let y = 0; y < domin.length; y++) {
           
           console.log(pronoun[i] + adj[j] + noun[k] + domin[y]);
+          document.getElementById("dominio").innerHTML+="<p>"+pronoun[i] + adj[j] + noun[k] + domin[y]+"</p>";
        
         }
       }
     }
-  }
+  }  
 };
 
 
